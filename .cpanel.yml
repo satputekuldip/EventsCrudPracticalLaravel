@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+  - export DEPLOYPATH=/home/swachchh/public_html/events.kuldip.dev/host/
+  - /bin/cp -a -R *  $DEPLOYPATH
